@@ -1,0 +1,4 @@
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mtable><mtr><mtd columnalign="center"><mi>a</mi><mo>=</mo><mi>b</mi></mtd><mtd columnalign="center"><mi>b</mi><mo>=</mo><mi>c</mi></mtd></mtr><mtr><mtd columnalign="center"><mi>c</mi><mo>=</mo><mi>d</mi></mtd><mtd columnalign="center"><mi>d</mi><mo>=</mo><mi>e</mi></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{matrix}
+a=b &amp; b=c \\
+c=d &amp; d=e
+\end{matrix}</annotation></semantics></math>

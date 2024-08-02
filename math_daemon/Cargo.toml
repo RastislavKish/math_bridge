@@ -1,0 +1,19 @@
+[package]
+name = "math_daemon"
+authors = ["Rastislav Kish <rastislav.kish@protonmail.com>"]
+license = "GPL-3.0-only"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+anyhow="1.0"
+derive-getters="0.3"
+futures-util="0.3"
+regex="1.10"
+serde={version="1.0", features=["derive"]}
+serde_json="1.0"
+tokio = { version = "1.37", features = ["full"] }
+tokio-tungstenite={version="0.23", features=["rustls-tls-native-roots"]}
+tungstenite={version="0.23", features=["rustls-tls-native-roots"]}
+

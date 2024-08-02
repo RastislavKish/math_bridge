@@ -1,0 +1,18 @@
+[package]
+name = "mathcat_client"
+authors = ["Rastislav Kish <rastislav.kish@protonmail.com>"]
+license = "GPL-3.0-only"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+anyhow="1.0"
+clap={version="4.5", features=["derive"]}
+gtk="0.18"
+gdk="0.18"
+gio="0.18"
+glib="0.18"
+mathcat="0.6"
+speech-dispatcher="0.16"
+
